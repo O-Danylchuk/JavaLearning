@@ -6,11 +6,8 @@ public class Main {
             if (i % 2 == 0) {
                 a[i] = new Cat();
             } 
-            else if (i % 3 == 0) {
-                a[i] = new Dog();
-            }
             else {
-                a[i] = new Animal();
+                a[i] = new Dog();
             }
         }
 
